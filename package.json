@@ -6,8 +6,12 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": "",
-  "author": "",
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "http://github.com/isaacs/npm.git"
+  },
+  "author": "José F. Romaniello <jfromaniello@gmail.com> (http://joseoncode.com)",
   "license": "BSD",
   "devDependencies": {
     "expect.js": "~0.2.0",
