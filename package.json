@@ -1,15 +1,14 @@
 {
   "name": "express-brute-mongo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "MongoDB store for express-brute.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "http://github.com/isaacs/npm.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/isaacs/npm.git"
   },
   "author": "José F. Romaniello <jfromaniello@gmail.com> (http://joseoncode.com)",
   "license": "BSD",
