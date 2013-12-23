@@ -1,6 +1,6 @@
 {
   "name": "express-brute-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "MongoDB store for express-brute.",
   "main": "index.js",
   "scripts": {
