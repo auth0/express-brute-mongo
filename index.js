@@ -32,12 +32,17 @@ MongoStore.prototype.set = function (key, value, lifetime, callback) {
 
 MongoStore.prototype.get = function (key, callback) {
   var _id = this.options.prefix + key;
+  var collection = this._collection;
 
-  this._collection.findOne({ _id: _id }, function (err, doc) {
+  collection.findOne({ _id: _id }, function (err, doc) {
     if (err) {
       typeof callback == 'function' && callback(err, null);
     } else {
       var data;
+      if (doc && doc.expires < new Date()) {
+        collection.remove({ _id: _id }, {w: 0});
+        return callback();
+      }
       if (doc) {
         data = doc.data;
         data.lastRequest = new Date(data.lastRequest);
