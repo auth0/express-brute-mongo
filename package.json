@@ -19,7 +19,7 @@
     "mocha": "~1.15.1"
   },
   "peerDependencies": {
-    "express-brute": "~0.4.2"
+    "express-brute": "~0.5.0"
   },
   "dependencies": {
     "moment": "~1.7.2",
