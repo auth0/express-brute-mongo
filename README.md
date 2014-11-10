@@ -35,7 +35,7 @@ app.post('/auth',
 Create an index with `expireAfterSeconds: 0` in mongo as follows:
 
 ```
-db.my_api_limits_coll.ensureIndex({expires: 1}, {expires: 0});
+db.my_api_limits_coll.ensureIndex({expires: 1}, {expireAfterSeconds: 0});
 ```
 
 ## License
