@@ -40,9 +40,9 @@ db.my_api_limits_coll.ensureIndex({expires: 1}, {expireAfterSeconds: 0});
 
 ## License
 
-MIT 2013 - Auth10 LLC.
+MIT 2013-2014 - Auth0 Inc.
 
-Copyright (c) 2013 Auth10 LLC
+Copyright (c) 2013-2014 Auth0 Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
