@@ -15,7 +15,7 @@ MongoStore.prototype = Object.create(AbstractClientStore.prototype);
 
 MongoStore.prototype.set = function (key, value, lifetime, callback) {
   var _id = this.options.prefix+key;
-  var expiration = lifetime ? moment().add('seconds', lifetime).toDate() : undefined;
+  var expiration = lifetime ? moment().add(lifetime, 'seconds').toDate() : undefined;
 
   this._collection.update({
     _id: _id
