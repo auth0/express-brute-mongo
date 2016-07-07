@@ -1,6 +1,6 @@
 {
   "name": "express-brute-mongo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MongoDB store for express-brute.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "express-brute": "~0.5.0"
   },
   "dependencies": {
-    "moment": "~1.7.2",
+    "moment": "~2.14.1",
     "xtend": "~2.1.1"
   }
 }
