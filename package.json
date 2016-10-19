@@ -22,7 +22,7 @@
     "express-brute": "~0.5.0"
   },
   "dependencies": {
-    "moment": "~1.7.2",
+    "moment": "~2.13.0",
     "xtend": "~2.1.1"
   }
 }
