@@ -17,7 +17,7 @@
     "express": "~4.14.0",
     "express-brute": "~1.0.1",
     "mocha": "~3.1.2",
-    "mongo-getdb": "~2.1.0"
+    "mongo-getdb": "~3.0.0"
   },
   "dependencies": {
     "moment": "~2.13.0",
